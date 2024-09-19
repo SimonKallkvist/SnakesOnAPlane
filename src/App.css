@@ -1,0 +1,72 @@
+/* -_- */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.playArea {
+  border: 5px solid red;
+  width: 585px;
+  height: 440px;
+  position: fixed;
+  top: 43.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fruit {
+  display: none;
+}
+
+.phone {
+  width: 800px;
+  height: 800px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gameOver {
+  position: fixed;
+  top: 43.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 35px;
+}
+
+.monitor {
+  transform: translate(100px, -50px);
+  scale: 0.85;
+  position: fixed;
+}
+
+.playBtn {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: #502c7b;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 0.9em;
+  box-shadow: 4px 4px 0 0 white;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.scoreBox {
+  float: right;
+  margin: 30px;
+  margin-top: 50px;
+  box-shadow: 0 4px 13px 0 rgba(48, 26, 74, 0.63);
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px;
+}
