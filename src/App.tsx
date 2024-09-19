@@ -113,6 +113,20 @@ function App() {
         setDirection([0, 1]);
         break;
     }
+    switch (e.key) {
+      case 'A':
+        setDirection([-1, 0]);
+        break;
+      case 'W':
+        setDirection([0, -1]);
+        break;
+      case 'D':
+        setDirection([1, 0]);
+        break;
+      case 'S':
+        setDirection([0, 1]);
+        break;
+    }
   }
 
   return (
